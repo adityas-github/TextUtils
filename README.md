@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# TextUtils
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+TextUtils is a React-based web application designed to modify text in various ways. It provides a range of functionalities including converting text to uppercase or lowercase, copying text, clearing text, removing extra spaces, counting the number of words and characters, and showing the time required to read the text. Additionally, TextUtil features a theme toggle to switch between light and dark modes.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Convert to Uppercase**: Transform the input text to uppercase.
+- **Convert to Lowercase**: Transform the input text to lowercase.
+- **Copy Text**: Copy the input text to the clipboard.
+- **Clear Text**: Clear all the text from the input area.
+- **Remove Extra Spaces**: Remove any extra spaces from the input text.
+- **Word and Character Count**: Display the number of words and characters in the input text.
+- **Reading Time**: Estimate the time required to read the input text.
+- **Text Preview**: Display a preview of the input text.
+- **Toggle Theme**: Switch between light and dark modes for the application.
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/adityas-github/Textutils.git
+   cd Textutil
+   ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-### `npm test`
+3. **Start the application**:
+   ```bash
+   npm start
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The application will run on `http://localhost:3000` by default.
 
-### `npm run build`
+## Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Enter Text**: Input the text you want to modify in the text area.
+2. **Use Buttons**: Click on the buttons provided to perform various operations like converting text to uppercase, lowercase, copying, clearing text, removing extra spaces, and more.
+3. **View Stats**: Check the word and character count, reading time, and preview of the text below the text area.
+4. **Toggle Theme**: Use the toggle switch in the navigation bar to switch between light and dark themes.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Components
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Navbar**: Contains the title of the application and the theme toggle switch.
+- **TextForm**: Main component for text input and displaying modification options.
+- **Alert**: Displays alert messages for actions performed (e.g., text copied, theme toggled).
+- **About**: Provides information about the application.
 
-### `npm run eject`
+## Contributing
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes and commit them (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Open a pull request.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Acknowledgements
 
-## Learn More
+- Thanks to the creators of React and the open-source community for their invaluable contributions.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contact
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For any questions or suggestions, please reach out to me at [adimane183@gmail.com].
